@@ -1,0 +1,13 @@
+[project]
+name = "genai-image-description"
+version = "0.1.0"
+description = "Backend of Gen AI based Image Description Generator"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.121.3",
+    "openai>=2.8.1",
+    "pillow>=12.0.0",
+    "python-multipart>=0.0.20",
+    "uvicorn>=0.38.0",
+]
